@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
+  @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 .navbar {
   position: fixed;
   top: 0;
@@ -50,4 +58,135 @@
 
 a {
   text-decoration: none;
+}
+
+.article-top {
+  margin: 5rem auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.display_flex {
+  display: flex;
+}
+
+.main-title {
+  font-family: 'Sansita Swashed', cursive;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.img-top {
+  width: 59.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-pic {
+  width: 100%;
+}
+
+.info-pic {
+  font-family: 'Roboto Slab', serif;
+  color: gray;
+  width: 100%;
+  align-self: flex-start;
+  font-size: 0.9rem;
+}
+
+.Rick-Friedman {
+  font-size: 0.8rem;
+  color: darkgrey;
+}
+
+.actual-article {
+  position: relative;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40rem;
+}
+.div100 {
+  width: 34rem;
+}
+
+.autor-name-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 0.95rem;
+}
+
+.autor-name {
+  text-decoration-line: underline;
+  text-decoration-color: #ccc;
+  color: black;
+}
+
+.social-media-bar {
+  height: 3rem;
+  width: 33rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date-social-media {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8rem;
+}
+
+.shape-of-button {
+  border-radius: 50%;
+  background-color: #eee;
+  color: black;
+  height: 1.5rem;
+  width: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  border: 1px solid #eee;
+}
+
+.shape-of-button:hover {
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.resize-icons {
+  font-size: 0.8rem;
+}
+
+.shape-of-button-void-structure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.another-resize-icons > a > [name~="bookmark-outline"],
+.another-resize-icons > a > [name~="chatbox-outline"] {
+  font-size: 1.5rem;
+}
+
+.relocation-numbers-messages {
+  font-size: 0.65rem;
+  position: relative;
+  right: 1.5rem;
+  bottom: 0.6rem;
+}
+
+.another-icons-author {
+  color: black;
+}
+
+.social-media-icons {
+  display: flex;
 }
