@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;700&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
-
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 .navbar {
   position: fixed;
@@ -113,6 +112,7 @@ a {
   flex-direction: column;
   width: 40rem;
 }
+
 .div100 {
   width: 34rem;
 }
@@ -171,7 +171,7 @@ a {
   margin-right: 1rem;
 }
 
-.another-resize-icons > a > [name~="bookmark-outline"],
+.another-resize-icons > a > [name~="bookmark-outline"], 
 .another-resize-icons > a > [name~="chatbox-outline"] {
   font-size: 1.5rem;
 }
@@ -190,3 +190,104 @@ a {
 .social-media-icons {
   display: flex;
 }
+
+.section-paragraph {
+  width: 34rem;
+  color: rgb(58, 57, 57);
+  text-align: left;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  margin-top: 1rem;
+}
+
+.paragraph-link {
+  color: #326891;
+  text-decoration-line: underline;
+  text-decoration-color: #326891;
+
+}
+
+.paragraph-link:hover {
+  text-decoration: none;
+}
+
+.division-text {
+  text-align: center;
+  font-weight: bold;
+}
+
+.division-text > hr {
+  width: 5rem;
+}
+
+.division-text > p {
+  margin-bottom: 0;
+}
+
+.division-text > a > p {
+  margin-top: 0;
+}
+
+.division-text > a {
+  color: #326891;
+}
+
+.title-paragraph {
+  font-weight: 900;
+}
+
+.bigbang-grid-title {
+  width: 54rem;
+}
+
+.bigbang-grid-title-font {
+  font-family: 'David Libre', serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.bigbang-grid-title-paragraph {
+  font-family: 'David Libre', serif;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.bigbang-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  background-image: url(/assets/inflation-945.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  align-items: end;
+  width: 54rem;
+  height: 35rem;
+  font-size: 0.9rem;
+}
+
+.bigbang-rows {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1rem;
+}
+
+.bigbang-grid-text {
+  font-weight: bold;
+}
+
+.bigbang-bottom {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bigbang-bottom > hr {
+  margin-left: 0;
+  width: 4rem;
+  background-color: black;
+  height: 1px;
+}
+
+.paragraph-link > a {
+  color: #326891;
+}
+

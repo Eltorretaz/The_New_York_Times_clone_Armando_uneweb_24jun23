@@ -1,1 +1,1 @@
-# The_New_York_Times_clone_Armando_uneweb_24jun23
+# the_new_york_times_clone_aristides_uneweb_24jun23
